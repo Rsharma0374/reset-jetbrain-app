@@ -46,7 +46,7 @@ public class AppView extends javax.swing.JFrame {
                         + "[dark]foreground:shade(@foreground,40%);");
 
         labelGithub.setIcon(new FlatSVGIcon("icons/github.svg", 0.6f));
-        labelGithub.setText("Help");
+        labelGithub.setText("Help   Developed by Rahul Sharma");
         labelGithub.setCursor(new Cursor(Cursor.HAND_CURSOR));
 
 
@@ -67,7 +67,7 @@ public class AppView extends javax.swing.JFrame {
                 paneGroupBtnLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(paneGroupBtnLayout.createSequentialGroup()
                                 .addContainerGap()
-                                .addComponent(labelGithub, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(labelGithub, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(btnStart)
                                 .addContainerGap())
